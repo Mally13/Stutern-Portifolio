@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    color:  rgb(39, 39, 39);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #fba0cd 100%);
+    
+}
+.container{
+    margin: 56px 96px;
+    justify-self: center;
+    background: rgb(221 235 247);
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    border-radius: 32px;
+}
+/*header*/
+header{
+    background: rgb(221 235 247);
+    height: 80px;
+    border-radius: 32px 32px 0 0;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+}
+#logo{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    justify-self: flex-start;
+    padding: 12px;
+}
+#logo>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:0 16px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 16px;
+    padding: 12px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(39, 39, 39);;
+}
+li#cta a{
+    background-color:  rgb(39, 39, 39);
+    color: rgb(242, 247, 247);
+    padding:10px 12px;
+    border-radius: 12px;
+}
+
+section{
+    margin: 0 64px;
+    padding: 16px 112px;
+    margin-top: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.5;
+    justify-content: space-between;
+    color:  rgb(116, 113, 113);;
+}
+section#about_me{
+    display: flex;
+    flex-direction: row;
+}
+section#about_me .small{
+    width:40%;
+    height: 300px;
+    justify-self: flex-start;
+    background-color: #73d8bd;
+    background-image:  linear-gradient(0deg, #9adbff 9%, #eba0e3 37%, #d1f3ea 75%);
+    border-radius: 8px;
+
+
+}
+section#about_me .small img{
+    height: 300px;
+    width: 100%;
+}
+section#about_me .big{
+    width: 60%;
+    display: flex;
+    padding: 0 0 0 112px;
+    flex-direction: column;
+}
+section#about_me .big h1{
+    font-weight: 600;
+    font-size: 48px;   
+    color:  rgb(39, 39, 39);
+}
+section#about_me .big p{
+    font-weight: 400;
+    font-size: 21px;
+}
+section#career{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+}
+section#career .small{
+    width:40%;
+    justify-self: flex-end;
+    padding: 112px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 21px;
+
+
+}
+section#career .small .skill{
+    border: 1px solid gainsboro;
+    background: transparent;
+    padding: 8px;
+    font-size: 14px;
+    margin: 4px;
+    text-transform: uppercase;
+    color:  rgb(39, 39, 39);
+    font-weight: 600;
+}
+section#career .big{
+    width: 60%;
+    display: flex;
+    padding: 0 112px 0 0;
+    flex-direction: column;
+    justify-self: flex-start;
+}
+section#career .big h3{
+    font-weight: 600;
+    font-size: 32px;   
+    color:  rgb(39, 39, 39);
+}
+section#career .big p{
+    font-weight: 400;
+    font-size: 16px;
+    color:  rgb(116, 113, 113);
+}
