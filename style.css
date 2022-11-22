@@ -131,12 +131,14 @@ section#career .small{
 section#career .small .skill{
     border: 1px solid gainsboro;
     background: transparent;
-    padding: 8px;
-    font-size: 14px;
+    padding: 6px 4px;
+    font-size: 12px;
     margin: 4px;
     text-transform: uppercase;
-    color:  rgb(39, 39, 39);
+    color: rgb(39, 39, 39);
     font-weight: 600;
+    border-radius: 8px;
+    line-height: 2.5;
 }
 section#career .big{
     width: 60%;
